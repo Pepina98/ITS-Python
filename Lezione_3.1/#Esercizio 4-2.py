@@ -7,4 +7,4 @@ for name in name_animals:
 for name in name_animals:
     print(f"A {name} would make a great pet")
 
-print(f"This animals have in common the wings!")
+print(f"These animals have in common the wings!")
