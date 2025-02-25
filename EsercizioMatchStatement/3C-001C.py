@@ -1,4 +1,4 @@
-#3C-00C
+#3C-001C
 voto:int = int(input("Inserire un voto da 1 a 10:"))
 
 match voto:
