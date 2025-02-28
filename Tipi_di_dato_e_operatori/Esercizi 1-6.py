@@ -15,4 +15,3 @@ print(ordine.values())
 
 totale:float = sum (ordine.values())
 print(f"Il conto totale è : {totale} euro")
-
