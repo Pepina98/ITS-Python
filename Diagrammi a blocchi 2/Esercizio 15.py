@@ -10,19 +10,15 @@ if n >=1 and n <= 100:
         if i % 2 == 0:
             somma_pari += i 
             i += 1
-    
-        else:
-            somma_dispari += i
-            i += 1
+print(f"La somma dei numeri pari è:{somma_pari}")
             
 
+elif n < 0 and n ==0:
+    print("Errore")
+            
+else:
+    while i < n:
+           if i % 2 =! 0: 
+                somma_dispari += i
+                i += 1
 print(f"La somma dei numeri dispari è:{somma_dispari}")
-print(f"La somma dei numeri pari è:{somma_pari}")
-
-
-
-
-        
-
-        
-
