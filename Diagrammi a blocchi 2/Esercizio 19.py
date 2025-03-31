@@ -16,4 +16,3 @@ while True:
 
     else:
         print("Risposta non valida")
-_
