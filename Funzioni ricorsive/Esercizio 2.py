@@ -1,16 +1,12 @@
 #Esercizio 2
-def sum(n:int) -> int:
-    if n < 0:
-        print("Errore! Inserted number is negative!")
+def compoundInterest(m:float, t:int ) -> float:
     
-        return None
-
+    if t == 0:
+        return m
+    
     else:
-        somma:int = 0
-        while n:
-            somma += n
-            n -= 1
-        
-        return int(somma)
+        return float(1.005 * (compoundInterest(m, t -1)))
+    
+print(compoundInterest(9000,9))
 
-print(sum(5))
+#m * (1 + 1.005)**t
