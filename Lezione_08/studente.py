@@ -36,4 +36,8 @@ class Studente(Persona):
     # metodo che ritorna il valore dell'attributo self.matricola
     def getMatricola(self) -> str:
         return self.matricola 
+    
+    # ridefinire il metodo __str__(overiding)
+    def __str__(self) -> str:
+        return f"\nNome: {self.name}\nCognome: {self.getLastname()}\nMatricola: {self.getMatricola()}"
 
