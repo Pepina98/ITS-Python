@@ -1,0 +1,27 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8" />
+            <title><title></title>
+        </head>
+        <body>
+            <div id="orario"> </div>
+
+            <script>
+                var numero = prompt("Inserire un numero di secondi");
+                var num = numero;
+
+                var ore = (num / 3600);
+                var num1 = parseInt(ore)
+
+                var minuti = (num - (num1 * 3600)) / 60;
+                var num2 = parseInt(minuti)
+
+                var secondi = (num - (num1 * 3600) - (num2 * 60));
+                var num3 = parseInt(secondi)
+
+                document.getElementById("orario").innerHTML = num1 + " ore " + num2 + " minuti " + num3 + " secondi";
+            </script>
+        </body>
+    </html>
+</DOCTYPE>

@@ -1,0 +1,23 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8" />
+            <title><title></title>
+        </head>
+        <body>
+            <div id="età persona"> </div>
+            <div id="anni necessari"> </div>
+
+            <script>
+                var anno_nascita = prompt("Inserire l'anno di nascita");
+                var anno_corrente = prompt("Inserire l'anno corrente");
+
+                var n1 = parseInt(anno_nascita);
+                var n2 = parseInt(anno_corrente);
+
+                document.getElementById("età persona").innerHTML = "La tua età è " + (n2 - n1);
+                document.getElementById("anni necessari").innerHTML = "Per raggiungere 100 anni ti mancano " + (100 - (n2-n1)) + " anni";
+            </script>
+        </body>
+    </html>
+</DOCTYPE>
