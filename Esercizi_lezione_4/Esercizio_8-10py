@@ -1,0 +1,12 @@
+message:list = ["ciao", "come", "stai"]
+
+
+def send_message():
+    sent_messages:list = []
+    sent_messages.append(message)
+    print (*sent_messages)
+    
+    message.clear()
+    print(message)
+
+send_message()
